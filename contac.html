@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="Este es mi primer sitio web personal utilizando solo html">
     <link rel="icon" type="icon" href="Imgs/favicon.ico">
-    <title>Inicio</title>
+    <title>Contacto</title>
 </head>
 
 <body>
@@ -14,25 +14,56 @@
         <a href="">EdgarMejiaV</a>
         <nav>
             <ul>
-                <il><a href="#">Home </a></il>
+                <il><a href="index.html">Home </a></il>
                 <il><a href="about.html">Acerca de mi </a></il>
                 <il><a href="contac.html">Contacto </a></il>
 
             </ul>
         </nav>
     </header>
+    <h1>Contacto</h1>
     <section>
         <div>
-            <h1> hola soy , Edgar Mejía Vásquez
-            </h1>
-            <h2> ing. Sistemas</h2>
-            <div>
-                <img src="Imgs/edgar.jpg" alt="edgar">
-            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6657.89017810949!2d-78.52412825840592!3d-7.148511552934906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b25afd3fc7d087%3A0xea80a2b94d876b2b!2sCajamarca!5e0!3m2!1ses-419!2spe!4v1599062427136!5m2!1ses-419!2spe"
+                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
-
     </section>
 
+    <section>
+        <h2>Escríbanos y pronto le responderemos </h2>
+
+        <div>
+            <from method="post">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" placeholder="Ingrese nombre" required>
+                </div>
+                <div>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" placeholder="Apellido" required>
+                </div>
+                <div>
+                    <label for="telefono">telefono:</label>
+                    <input type="number" id="telefono" placeholder="Telefono" required>
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" placeholder="email" required>
+                </div>
+
+                <div>
+                    <textarea name="comentarios" placeholder="Deja tus comentarios"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </from>
+            <div>
+                <img src="https://images.pexels.com/photos/323503/pexels-photo-323503.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Contacto">
+            </div>
+        </div>
+        </div>
+    </section>
 
     <footer>
         <div>
@@ -74,7 +105,6 @@
             </div>
 
     </footer>
-
 </body>
 
 </html>
