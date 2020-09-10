@@ -13,9 +13,9 @@
         height: 450px;
         background: #00d2ff;
         /* fallback for old browsers */
-        background: -webkit-linear-gradient(to top, hsla(197, 31%, 57%, 0.294), hsla(191, 100%, 50%, 0.322)), url(/Imgs/edgar2.jpg);
+        background: -webkit-linear-gradient(to top, hsla(197, 31%, 57%, 0.294), hsla(191, 100%, 50%, 0.322)), url(../Imgs/Edgar2.jpg);
         /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to top, hsla(197, 31%, 57%, 0.294), hsla(191, 100%, 50%, 0.322)), url(/Imgs/edgar2.jpg);
+        background: linear-gradient(to top, hsla(197, 31%, 57%, 0.294), hsla(191, 100%, 50%, 0.322)), url(../Imgs/Edgar2.jpg);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-size: cover;
         background-attachment: fixed;
