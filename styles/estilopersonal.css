@@ -53,6 +53,7 @@
     header a :hover {
         text-decoration: underline;
         text-decoration-color: red;
+        /* text-decoration-color: red; */
     }
     
     header .textos-header {
