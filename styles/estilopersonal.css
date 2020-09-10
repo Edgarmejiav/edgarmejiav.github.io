@@ -27,8 +27,15 @@
         padding: 10px 50px;
     }
     
+    header img {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
     nav {
+        float: right;
         text-align: right;
+        /* padding-bottom: 100px; */
     }
     
     header a {
@@ -36,6 +43,11 @@
         font-weight: 100;
         text-decoration: none;
         margin-right: 10px;
+    }
+    
+    header ul li {
+        list-style: none;
+        display: inline-block;
     }
     
     header a :hover {
