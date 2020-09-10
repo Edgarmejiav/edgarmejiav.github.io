@@ -1,0 +1,30 @@
+footer {
+    background-color: #1f1f20;
+    color: white;
+    text-align: center;
+}
+
+
+/* .conteiner-footer {
+    background-color: red;
+} */
+
+.content-foo {
+    display: inline-block;
+    align-items: center;
+    vertical-align: top;
+    padding: 10px 70px 0px 70px;
+    margin: 0px;
+}
+
+footer a {
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+footer h5 {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+}

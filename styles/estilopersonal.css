@@ -1,0 +1,85 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    header {
+        width: 100%;
+        height: 450px;
+        background: #00d2ff;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to top, hsla(197, 31%, 57%, 0.294), hsla(191, 100%, 50%, 0.322)), url(/Imgs/edgar2.jpg);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to top, hsla(197, 31%, 57%, 0.294), hsla(191, 100%, 50%, 0.322)), url(/Imgs/edgar2.jpg);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+    }
+    
+    header {
+        text-align: left;
+        padding: 10px 50px;
+    }
+    
+    nav {
+        text-align: right;
+    }
+    
+    header a {
+        color: white;
+        font-weight: 100;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    
+    header a :hover {
+        text-decoration: underline;
+        text-decoration-color: red;
+    }
+    
+    header .textos-header {
+        display: flex;
+        height: 50%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .textos-header h1 {
+        font-size: 40px;
+        font-weight: 600;
+        color: white;
+    }
+    
+    .textos-header h2 {
+        font-size: 25px;
+        font-weight: 300;
+        color: white;
+    }
+    
+    .wave {
+        height: 250px;
+        position: absolute;
+        overflow: hidden;
+        bottom: 0;
+        width: 100%;
+        bottom: 175px;
+    }
+    
+    .wave svg {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .wave svg path {
+        stroke: none;
+        fill: white;
+    }

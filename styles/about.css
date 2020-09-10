@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Crimson Pro', serif;
+    background: white;
+}
+
+header {
+    width: 100%;
+    background: #11385D;
+    vertical-align: middle;
+    /* text-align: left; */
+    /* position: fixed; */
+    padding: 10px 0px 10px 100px;
+}
+
+nav {
+    display: inline-block;
+    width: 70%;
+    text-align: right;
+}
+
+header a {
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.logo {
+    font-weight: 600;
+}
+
+.content {
+    padding: 50px;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.content h1 {
+    color: #11385D;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+h2 {
+    color: #11385D;
+    /* align-items: center; */
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    /* height: 350px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card {
+    width: 30%;
+    background: rgb(250, 250, 250);
+    /* height: 300px; */
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 10px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img {
+    width: 60%;
+    height: 60%;
+}
+
+.container .card h3 {
+    color: #1d1d1f;
+}
+
+.container .card h4 a {
+    color: #11385D;
+    text-decoration: none;
+}
+
+.container .card p {
+    color: #1d1d1f;
+    text-decoration: none;
+}
