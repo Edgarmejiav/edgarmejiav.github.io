@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Crimson Pro', serif;
+    font-family: 'Krona One', sans-serif;
     background: white;
 }
 
@@ -47,6 +47,12 @@ header ul li {
     text-align: center;
 }
 
+.content .img-radius {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
 .content h1 {
     color: #11385D;
     font-weight: 900;
@@ -82,26 +88,39 @@ h2 {
     transition: all 0.25s;
 }
 
+.container .card-body {
+    padding: 20px;
+}
+
 .container .card:hover {
     transform: translateY(-15px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .container .card img {
-    width: 60%;
-    height: 60%;
+    /* width: 50%;
+    height: 50%; 
+    display: block;
+    margin: auto;*/
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 10px;
 }
 
 .container .card h3 {
     color: #1d1d1f;
+    padding: 10px;
 }
 
 .container .card h4 a {
+    padding: 10px;
     color: #11385D;
     text-decoration: none;
 }
 
 .container .card p {
+    padding: 5px;
     color: #1d1d1f;
     text-decoration: none;
 }
