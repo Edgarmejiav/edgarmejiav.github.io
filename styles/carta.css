@@ -1,0 +1,15 @@
+body {
+    line-height: 1.5;
+    font-family: "Times New Roman', Times, serif";
+    font-size: 16px;
+    color: black;
+    padding: 0px 50px 0 50px;
+}
+
+.column-right {
+    text-align: right;
+}
+
+h1 {
+    font-size: 23px;
+}
