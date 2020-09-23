@@ -20,43 +20,56 @@ header {
 }
 
 nav {
-    display: inline-block;
-    width: 70%;
-    text-align: right;
+    /* display: inline-block !important;
+    width: 100% !important;
+    text-align: right !important; */
+    background-color: #11385D !important;
+    /* border: none !important;
+    box-shadow: none !important; */
 }
 
+
+/* 
 header a {
     color: white;
     font-weight: 100;
     text-decoration: none;
     margin-right: 20px;
+    text-align: right !important;
 }
 
 header ul li {
     list-style: none;
     display: inline-block;
+    text-align: right !important;
 }
 
 .logo {
     font-weight: 600;
-}
+} */
 
-.content {
+
+/* .content {
     padding: 50px;
-    /* align-items: center; */
     text-align: center;
-}
+} */
 
-.content .img-radius {
+
+/* .content .img-radius {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-}
+} */
 
-.content h1 {
-    color: #11385D;
+h1 {
+    color: #ffffff;
     font-weight: 900;
     font-size: 30px;
+    text-align: center;
+}
+
+#colorh1 {
+    color: #11385D !important;
 }
 
 h2 {
@@ -66,20 +79,21 @@ h2 {
     padding: 20px;
 }
 
-.container {
+
+/* .container {
     width: 100%;
     max-width: 1200px;
-    /* height: 350px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-}
+} */
 
+
+/* 
 .container .card {
     width: 30%;
     background: rgb(250, 250, 250);
-    /* height: 300px; */
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -98,10 +112,7 @@ h2 {
 }
 
 .container .card img {
-    /* width: 50%;
-    height: 50%; 
-    display: block;
-    margin: auto;*/
+  
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -123,8 +134,21 @@ h2 {
     padding: 5px;
     color: #1d1d1f;
     text-decoration: none;
-}
+} */
 
 iframe {
     border-width: 0px;
+}
+
+h3 {
+    color: #11385D !important;
+    font-size: 25px !important;
+}
+
+.card-action a {
+    color: #11385D !important;
+}
+
+.card-content {
+    padding-top: 2px !important;
 }

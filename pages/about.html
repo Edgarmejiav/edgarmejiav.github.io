@@ -8,133 +8,261 @@
     <link rel="stylesheet" href="/styles/fotter.css">
     <link rel="stylesheet" href="/styles/about.css">
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
     <title>Acerca de mi</title>
 </head>
 
+
 <body>
-    <header>
-        <img src="/Imgs/Logo.svg" width="30" height="30" alt="logo">
-        <a class="logo" href="../index.html">EdgarMejiaV</a>
-        <nav>
-            <ul>
+    <nav>
+        <div class="nav-wrapper">
+            <img src="/Imgs/Logo.svg" width="30" height="30" alt="logo">
+            <a href="../index.html"> EdgarMejiaV</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="../index.html">Home </a></li>
                 <li><a href="/pages/about.html">Acerca de mi </a></li>
                 <li><a href="/pages/contac.html">Contacto </a></li>
                 <li><a href="/pages/carta05.html">Carta </a></li>
-
             </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
+    <div class="social-bar">
+        <a href="https://www.facebook.com/DevCode.la" class="icon icon-facebook" target="_blank"></a>
+        <a href="https://twitter.com/DevCodela" class="icon icon-twitter" target="_blank"></a>
+        <a href="https://www.youtube.com/c/devcodela" class="icon icon-youtube" target="_blank"></a>
+        <a href="https://www.instagram.com/devcodela/" class="icon icon-instagram" target="_blank"></a>
+    </div>
+    <section class="slider  ">
+        <ul class="slides ">
+            <li>
+                <img src="../Imgs/IMG_20190705_230451.jpg" alt="">
 
-    <section class="content">
-        <h1>Acerca de mi</h1>
-        <div>
-            <img class="img-radius" src="/Imgs/edgar.jpg" alt="Edgar">
+                <div class="caption center-align">
+                    <h1> Hola, soy Edgar</h1>
+                    <h3 class="light grey-text text-lighten-3 "> Tengo 23 años </h3>
+                </div>
+            </li>
+            <li>
+                <img src="../Imgs/IMG_2038.jpg" alt="">
+                <div class="caption center-align">
+                    <h1>De pequeño</h1>
+                    <h3 class="light grey-text text-lighten-3"> Queria cambiar el mundo </h3>
+                </div>
+                <li>
+                    <img src="../Imgs/Viaje.jpg" alt="">
+                    <div class="caption center-align">
+                        <h1> Por eso estudié </h1>
+                        <h3 class="light grey-text text-lighten-3 "> Ing. de sistemas </h3>
+                    </div>
+                </li>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2 id="colorh1">Acerca de mi</h2>
+        <div class="parallax-container">
+            <div class="parallax"><img src="../Imgs/edgar22.jpg"></div>
         </div>
     </section>
-    <h2>Experiencia</h2>
+
+
     <section class="container">
-        <div class="card">
-            <img src="/Imgs/logo_iq.jpg" alt="Logo redIQ">
-            <div class="card-body">
-                <h3>Diseñador gráfico de marketing</h3>
-                <h4><a href="https://www.facebook.com/RedIqCajamarca" target="_blank">Red InterQuorum</a></h4>
+        <h2>Experiencia</h2>
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card-image">
+                    <img class="responsive-img" src="../Imgs/logo_iq.jpg" alt="Logo redIQ">
+                </div>
+                <div class="card-content">
+                    <h3>Diseño y marketing</h3>
+                    <p>Mayo del 2018 - actualidad</p>
+                    <p>Cajamarca, Perú</p>
+                </div>
+                <div class="card-action ">
+                    <a href="https://www.facebook.com/RedIqCajamarca" target="_blank">Red InterQuorum</a>
+                </div>
+                <div class="right block">
+                    <!-- Modal Trigger -->
+                    <a class=" btn-floating btn-large  modal-trigger" href="#modal1"><i class="fas fa-plus-circle"></i></a>
+                    <!-- Modal Structure -->
+                    <div id="modal1" class="modal">
+                        <div class="modal-content">
+                            <h4>Red InterQuorum</h4>
+                            <p>Somos una asociación orientada al fortalecimiento de la democracia, los derechos humanos y la sostenibilidad ambiental, sin fines de lucro, filiación partidaria ni religiosa, que nace con el fin supremo de sostener la vigencia
+                                y las acciones de la movilización ciudadana de la Red IQ a nivel nacional, con un énfasis especial en el empoderamiento de las juventudes y orientada a sus líneas de trabajo. Nuestros estatutos están inscritos en los Registros
+                                Públicos de la Nación.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">cerrar</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div>
-                <p>Mayo de 2018 - actualidad</p>
-                <p>Cajamarca, Perú</p>
+            <div class="col s12 m4">
+                <div class="card-image">
+                    <img class="responsive-img" src="../Imgs/unec.png" alt="Logo unec">
+                </div>
+                <div class="card-content">
+                    <h3>Voluntario</h3>
+                    <p>Agosto del 2017 - Enero de 2019</p>
+                    <p>Cajamarca, Perú</p>
+                </div>
+                <div class="card-action ">
+                    <a href="https://www.facebook.com/UNEC.PERU" target="_blank">UNEC PERÚ</a>
+                </div>
+                <div class="right block">
+                    <!-- Modal Trigger -->
+                    <a class=" btn-floating btn-large  modal-trigger" href="#modal2"><i class="fas fa-plus-circle"></i></a>
+                    <!-- Modal Structure -->
+                    <div id="modal2" class="modal">
+                        <div class="modal-content">
+                            <h4>UNEC</h4>
+                            <p>La Unión Nacional de Estudiantes Católicos fue una entidad confesional de acción social fundada por Ramón Martínez Silva en 1931 luego de los acuerdos de la Guerra Cristera, y cuyos miembros se insertaron en distintas esferas
+                                políticas durante la época del gobierno de Lázaro Cárdenas en México.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">cerrar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card-image">
+                    <img class="responsive-img" src="../Imgs/galatea_logo.jpg" alt="galatea_logo ">
+                </div>
+                <div class="card-content">
+                    <h3>Actor</h3>
+                    <p>Agosto del 2018 - actualidad</p>
+                    <p>Cajamarca, Perú</p>
+                </div>
+                <div class="card-action ">
+                    <a href="https://www.facebook.com/GALATEARTESCENICAS" target="_blank">Galatea Artes Escenicas</a>
+                </div>
+                <div class="right block">
+                    <!-- Modal Trigger -->
+                    <a class=" btn-floating btn-large  modal-trigger" href="#modal3"><i class="fas fa-plus-circle"></i></a>
+                    <!-- Modal Structure -->
+                    <div id="modal3" class="modal">
+                        <div class="modal-content">
+                            <h4>Galatea Artes Escenicas</h4>
+                            <p>Galatea Artes Escénicas es una agrupación y productora de proyectos teatrales y cinematográficos Cajamarca-Perú .
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">cerrar</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="card">
-            <img src="/Imgs/unec.png" alt="Logo unec">
-            <div>
-                <h3>Voluntario</h3>
-                <h4><a href="https://www.facebook.com/UNEC.PERU" target="_blank">Unión nacional de estudiantes catolicos</a></h4>
-            </div>
-            <div>
-                <p>Agosto de 2017 - Enero de 2019</p>
-                <p>Cajamarca, Perú</p>
-            </div>
+
+    </section>
+    <section>
+        <div class="parallax-container">
+            <div class="parallax"><img src="../Imgs/edgarDay.jpg"></div>
         </div>
     </section>
-
-    <h2>Educación</h2>
     <section class="container">
-        <div class="card">
-            <img src="/Imgs/logo_unc.jpg" alt="Logo unc">
-            <div>
-                <h3>
-                    Ing. Sistemas
-                </h3>
-                <h4>
+        <h2>Educación</h2>
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card-image">
+                    <img class="responsive-img" src="../Imgs/logo_unc.jpg" alt="Logo unc">
+                </div>
+                <div class="card-content">
+                    <h3>Ing. Sistemas</h3>
+                    <p>Marzo del 2016 - actualidad</p>
+                    <p>Cajamarca, Perú</p>
+                </div>
+                <div class="card-action ">
                     <a href="https://www.facebook.com/unc.edu.pe/" target="_blank"> <abbr title="Universidad Nacional de Cajamarca">UNC</abbr></a>
-                </h4>
+                </div>
+
             </div>
-            <div>
-                <p>2016 - actualidad</p>
-                <p>Cajamarca, Perú</p>
+            <div class="col s12 m4">
+                <div class="card">
+                    <img class="responsive-img" src="../Imgs/galatea_logo.jpg" alt="galatea_logo ">
+                </div>
+                <div class="card-content">
+                    <h3>Actor</h3>
+                    <p>Agosto del 2018 - actualidad</p>
+                    <p>Cajamarca, Perú</p>
+                </div>
+                <div class="card-action ">
+                    <a href="https://www.facebook.com/GALATEARTESCENICAS" target="_blank">Galatea Artes Escenicas</a>
+                </div>
+
             </div>
-        </div>
-        <div class="card">
-            <img src="/Imgs/galatea_logo.jpg" alt="Logo Galatea">
-            <div>
-                <h3>Actor</h3>
-                <h4><a href="https://www.facebook.com/GALATEARTESCENICAS" target="_blank">Galatea Artes Escenicas</a></h4>
-            </div>
-            <div>
-                <p>Agosto de 2018 - actualidad</p>
-                <p>Cajamarca, Perú</p>
+            <div class="col s12 m4">
+                <div class="card">
+                    <img class="responsive-img" src="../Imgs/logo_idiomas.jpg" alt="Logo Centro de idiomas">
+                </div>
+                <div class="card-content">
+                    <h3>Ingles elemental</h3>
+                    <p>Mayo del 2018 - octubre de 2018 </p>
+                    <p>Cajamarca, Perú</p>
+                </div>
+                <div class="card-action ">
+                    <a href="https://www.facebook.com/CiscUncSitioOficial/" target="_blank">Centos de idiomas de la <abbr title="Universidad Nacional de Cajamarca">UNC</abbr>
+                        </a>
+                </div>
+
             </div>
         </div>
 
-        <div class="card">
-            <img src="/Imgs/logo_idiomas.jpg" alt="Logo Centro de idiomas">
-            <div>
-                <h3>Ingles elemental</h3>
-                <h4><a href="https://www.facebook.com/CiscUncSitioOficial/" target="_blank">Centos de idiomas de la <abbr title="Universidad Nacional de Cajamarca">UNC</abbr>
-                    </a></h4>
-            </div>
-            <div>
-                <p>Mayo de 2018 - octubre de 2018 </p>
-                <p>Cajamarca, Perú</p>
-            </div>
+    </section>
+    <section>
+        <div class="parallax-container">
+            <div class="parallax"><img src="../Imgs/IMG-20190730-WA0077.jpg"></div>
         </div>
     </section>
 
-    <h2>Hobies</h2>
     <section class="container">
-
-        <div class="card">
-            <div>
-                <img src="/Imgs/adobe-lightroom.jpg" alt="lightroom">
-                <div>
-                    <h5>Fotografia</h5>
+        <h2>Hobies</h2>
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card-image">
+                    <img class="responsive-img" src="../Imgs/adobe-lightroom.jpg" alt="lightroom">
+                </div>
+                <div class="card-content">
+                    <h3>Fotografia</h3>
                     <p>Para mi la fotografia <cite> una realidad tan sutil que llega a ser más real que la realidad.</cite></p>
                     <p><small>cajamarca, peru</small></p>
                 </div>
+
+
             </div>
-        </div>
-        <div class="card">
-            <div>
-                <img src="/Imgs/cycling.jpeg" alt="cycling">
-                <div>
-                    <h5>Manejar bicileta</h5>
+            <div class="col s12 m4">
+                <div class="card-image">
+                    <img class="responsive-img" src="../Imgs/cycling.jpeg" alt="cycling">
+                </div>
+                <div class="card-content">
+                    <h3>Manejar bicileta</h3>
                     <p> <cite>La educación es un continuo proceso, es como andar en bicicleta… Si no pedaleas, no vas hacia adelante.</cite> <strong>-George Weah.</strong></p>
                     <p><small>cajamarca, peru</small></p>
                 </div>
+
             </div>
-        </div>
-        <div class="card">
-            <div>
-                <img src="/Imgs/audiovisaul.png" alt="audivisual">
-                <div>
-                    <h5>Escribir y dirigir audiovisuales</h5>
-                    <p> Crear pequeños segmentos de audiovisuales</p>
+            <div class="col s12 m4">
+                <div class="card-image">
+                    <img class="responsive-img" src="../Imgs/audiovisaul.png" alt="audivisual">
+                </div>
+                <div class="card-content">
+                    <h3>Escribir y dirigir audiovisuales</h3>
+                    <p> Crear pequeños segmentos de audiovisuales
+                    </p>
                     <p><small>cajamarca, peru</small></p>
                 </div>
+
             </div>
         </div>
+
 
     </section>
     <h2>Música favorita</h2>
@@ -142,7 +270,7 @@
 
         <div>
             <div>
-                <table>
+                <table class="responsive-table centered">
                     <thead>
                         <tr>
                             <th>Artista</th>
@@ -209,6 +337,19 @@
         </div>
 
     </footer>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        M.AutoInit();
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.slider');
+            var instances = M.Slider.init(elems, {
+
+
+            });
+        });
+    </script>
+
 </body>
 
 </html>

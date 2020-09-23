@@ -7,7 +7,11 @@
     <link rel="icon" href="/Imgs/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="/styles/fotter.css">
     <link rel="stylesheet" href="/styles/contact.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <title>Contacto</title>
+
 </head>
 
 <body>
@@ -27,14 +31,14 @@
     <section>
         <div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6657.89017810949!2d-78.52412825840592!3d-7.148511552934906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b25afd3fc7d087%3A0xea80a2b94d876b2b!2sCajamarca!5e0!3m2!1ses-419!2spe!4v1599062427136!5m2!1ses-419!2spe"
-                width="1340" height="450" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
     </section>
 
     <section class="content">
         <h1>Contacto</h1>
         <h2>Escríbanos y pronto le responderemos </h2>
-        <div class="rows">
+        <!-- <div class="rows">
             <form>
                 <div class="center">
                     <label>Nombre:</label>
@@ -63,9 +67,38 @@
         </div>
         <div class="rows">
             <img src="https://images.pexels.com/photos/323503/pexels-photo-323503.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Contacto">
+        </div> -->
+
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="col-sm">
+                <form>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Nombre:</label>
+                        <input class="form-control" type="text" placeholder="Ingrese nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">telefono:</label>
+                        <input class="form-control" type="number" id="telefono" placeholder="Telefono" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">E-mail:</label>
+                        <input class="form-control" type="email" placeholder="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea class="form-control" name="comentarios" placeholder="Deja tus comentarios"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm ">
+                <img class="img-thumbnail " src="https://images.pexels.com/photos/323503/pexels-photo-323503.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Contacto">
+            </div>
         </div>
-
-
     </section>
 
     <footer>
@@ -103,6 +136,12 @@
         </div>
 
     </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 
 </html>
