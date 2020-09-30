@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 50px;
+}
+
+label {
+    background-color: #006effb9;
+    color: white;
+}
+
+.labRed {
+    background-color: #ff0037e1;
+    color: white;
+}
+
+.btn-yellow {
+    background-color: #e4d022;
+}
