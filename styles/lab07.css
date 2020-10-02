@@ -8,15 +8,25 @@ body {
 }
 
 label {
-    background-color: #006effb9;
+    background-color: #4BB7F7;
     color: white;
 }
 
 .labRed {
-    background-color: #ff0037e1;
+    background-color: #AB3D40;
     color: white;
 }
 
 .btn-yellow {
-    background-color: #e4d022;
+    background-color: #B8B519;
+}
+
+.btn {
+    background-color: #4BB7F7;
+    color: white;
+}
+
+.btn2 {
+    background-color: #AB3D40;
+    color: white;
 }
