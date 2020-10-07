@@ -34,10 +34,11 @@ button {
 
 .color {
     color: #d13f57;
+    border: none;
 }
 
 .color:hover {
-    background-color: #d13f57;
+    background-color: rgba(189, 33, 59, 0.246);
 }
 
 .turismo2 {
