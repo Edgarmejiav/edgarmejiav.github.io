@@ -1,0 +1,57 @@
+h2 {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+p {
+    font-size: 16.5px;
+}
+
+button {
+    color: white;
+    border: none;
+}
+
+.turismo {
+    background-color: #a03535;
+}
+
+.imbobiliario {
+    background-color: #a03535;
+}
+
+.cultura {
+    background-color: #ffd153;
+}
+
+.politica {
+    background-color: #762ea0;
+}
+
+.color {
+    color: #d13f57;
+}
+
+.color:hover {
+    background-color: #d13f57;
+}
+
+.turismo2 {
+    color: #a03535;
+}
+
+.imbobiliario2 {
+    color: #a03535;
+}
+
+.cultura2 {
+    color: #ffd153;
+}
+
+.politica2 {
+    color: #762ea0;
+}
